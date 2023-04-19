@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*typo externa*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.typo-externa{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+h1{
+    color: rgba(49, 192, 104, 0.842);
+}
+#main-index{
+    background-color: antiquewhite;
+}
+
+#main-quienes-somos{
+    background-color: #9c7f205d;
+}
+
+#main-productos{
+    background-color: #9c7f205d;
+}
+
+#main-galerias{
+    background-color: #9c7f205d;
+}
+
+#main-contacto{
+    background-color: #9c7f205d;
+}
+
+#main-ubicacion{
+    background-color: #9c7f205d;
+}
+
+.subtitulo{
+    font-size: 20px;
+}
+
+.boton-oscuro{
+    background-color: chartreuse;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+ul{
+    background-color: aquamarine;
+    font-size: 20px;
+    color: brown;
+    font-family: monospace;
+}
+
+header{
+    background-color: bisque;
+}
+
+h2{
+    color: #166868;
+    font-family: sans-serif;
+}
+
+.boton-enlace{
+    color: black;
+    font-size: 25px;
+    background-color: chartreuse;
+    font-weight: 800;
+
+}
+
+.texto-2{
+    font-family: cursive;
+}
+
+.parrafo-form{
+    color: chocolate;
+    font-family: sans-serif;
+    font-weight: 800;
+}
