@@ -1,17 +1,51 @@
 
-
-/*typo externa*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-.typo-externa{
-    font-family: 'Roboto', sans-serif;
-}
-
 *{
     margin: 0;
     padding: 0;
+}
+
+/*ESTILOS DEL HEADER*/
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
 }
+
+.header h1{
+    padding: 15px;
+}
+
+.flex-ul{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 30px;
+    justify-content: space-evenly;
+    
+}
+
+.flex-ul li {
+    padding: 10px;
+    transition: background-color .5s;
+    text-align: center;
+    height: 100%;
+
+  }
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
 
 
 
@@ -22,9 +56,6 @@ h1{
     background-color: antiquewhite;
 }
 
-#main-quienes-somos{
-    background-color: #9c7f205d;
-}
 
 #main-productos{
     background-color: #9c7f205d;
@@ -53,15 +84,10 @@ h1{
     font-weight: 800;
 }
 
-ul{
-    background-color: aquamarine;
-    font-size: 20px;
-    color: brown;
-    font-family: monospace;
-}
+
 
 header{
-    background-color: bisque;
+    background-color: rgb(41, 153, 144);
 }
 
 h2{
