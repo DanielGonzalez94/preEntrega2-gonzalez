@@ -4,28 +4,26 @@
     padding: 0;
 }
 
-/*ESTILOS DEL HEADER*/
+/*ESTILOS DEL HEADER (NAV)*/
 
 .header{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     
 }
 
-.header h1{
-    padding: 15px;
+.header a img{
+    width: 100px;
 }
 
 .flex-ul{
-    list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 15px;
     display: flex;
+    list-style-type: none;
     width: 1200px;
-    margin: 0 auto;
-    min-height: 30px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
+    
     
 }
 
@@ -34,12 +32,12 @@
     transition: background-color .5s;
     text-align: center;
     height: 100%;
-
-  }
+    border: 0 5 0 5;
+    }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #0f0909da;
     font-weight: normal;
     display: block;
     width: 100%;
@@ -47,11 +45,34 @@ a {
   }
 
 
-
-
 h1{
     color: rgba(49, 192, 104, 0.842);
 }
+
+.destacados h2{
+    text-align: center;
+    color: #c5a742;
+    font-family: sans-serif;
+    padding: 20px 0;
+    }
+
+.section-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-flex img{
+    width: 250px;
+
+}
+
+.section-flex p{
+    width: 360px;
+    text-align: center;
+    padding: 20px;
+}
+
 #main-index{
     background-color: antiquewhite;
 }
@@ -90,10 +111,7 @@ header{
     background-color: rgb(41, 153, 144);
 }
 
-h2{
-    color: #166868;
-    font-family: sans-serif;
-}
+
 
 .boton-enlace{
     color: black;
@@ -111,4 +129,8 @@ h2{
     color: chocolate;
     font-family: sans-serif;
     font-weight: 800;
+}
+
+@media (max-width: 375px){
+
 }
